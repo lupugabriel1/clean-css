@@ -1,0 +1,7 @@
+dev:
+  build: .
+  volumes:
+    - bin:/app/bin
+    - lib:/app/lib
+    - test:/app/test
+    - package.json:/app/package.json
